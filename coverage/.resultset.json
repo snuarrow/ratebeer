@@ -1,0 +1,49 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/models/rating.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/beer_clubs_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/beers_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/breweries_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/memberships_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/styles_helper.rb": [
+        1,
+        null
+      ],
+      "/home/hexvaara/Documents/Courses/rubyonrails/ratebeer/app/helpers/users_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1424388088
+  }
+}
