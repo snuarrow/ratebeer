@@ -3,13 +3,16 @@
 	<%= link_to 'New Rating', new_rating_path, class:'btn btn-primary' %>
 <% end %>
 
+
 <h2>List of ratings</h2>
 
 <p>Total of <%= @ratings.count %> ratings given</p>
 
+
 <br>
 <h4>most recent ratings</h4>
 	<%= render 'listRatings', ratings: @last5 %>
+
 
 <br>
 <h4>top 3 users who have rated most</h4>
@@ -24,13 +27,16 @@
   	</tbody>
 	</table>
 
+
 <br>
 <h4>top 3 breweries by ratings</h4>
 	<%= render 'listTop3', breweries: @top_breweries %>
 
+
 <br>
 <h4>top 3 beers by ratings</h4>
 	<%= render 'listTop3', breweries: @top_beers %>
+
 
 <br>
 <h4>all ratings</h4>

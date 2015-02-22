@@ -1,0 +1,11 @@
+<table class="table">
+  
+    <tbody>
+    <% breweries.each do |brewery| %>
+      <tr>
+        <td><%= brewery.name %></td>
+        <td><%= brewery.average_rating %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

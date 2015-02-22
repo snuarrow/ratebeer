@@ -8,7 +8,7 @@
 <% end %>
 
 <% if @places %>
-  <table class="table table-hover">
+  <table>
     <thead>
       <td>
         name

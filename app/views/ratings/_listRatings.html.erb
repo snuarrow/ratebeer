@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>beer</th>
+      <th>score</th>
+      <th>user</th>
+    </tr>
+  </thead>
+  
+    <tbody>
+    <% ratings.each do |rating| %>
+      <tr>
+        <td><%= (Beer.find_by id:rating.beer_id).name %></td>
+        <td><%= rating.score %></td>
+        <td><%= link_to rating.user.username, rating.user %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

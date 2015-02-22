@@ -2,11 +2,17 @@ source 'https://rubygems.org'
 
 gem 'httparty'
 
+gem 'bootstrap-sass'
+group :development do
+  gem 'rails_layout'
+end
+
+
 group :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
-  #gem 'webmock'
+  gem 'webmock'
 end
 
 group :development, :test do
